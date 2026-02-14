@@ -180,7 +180,7 @@ setup_args = dict(
         "pytsk3==20160226",
         "pytz==2016.4",
         "urllib3==1.14",
-        "protobuf==3.0.0",
+        "protobuf==5.29.6",
         "wheel==0.29",
         "virtualenv==15.0.3",
     ],
