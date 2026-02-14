@@ -168,12 +168,12 @@ setup_args = dict(
     },
     install_requires=[
         "cryptography==46.0.5",
-        "PyYAML==3.11",
+        "PyYAML==6.0.3",
         "binplist==0.1.4",
         "ipaddr==2.1.11",
-        "ipython==5.0.0",
-        "pip>=8.1.1,<9",
-        "psutil==4.3.0",
+        "ipython==8.10.0",
+        "pip>=8.1.1,<27",
+        "psutil==7.2.2",
         "pyaml==15.8.2",
         "pycrypto==2.6.1",
         "python-dateutil==2.5.3",
@@ -181,8 +181,8 @@ setup_args = dict(
         "pytz==2016.4",
         "urllib3==2.6.3",
         "protobuf==5.29.6",
-        "wheel==0.29",
-        "virtualenv==15.0.3",
+        "wheel==0.38.1",
+        "virtualenv==20.36.1",
     ],
     extras_require={
         # The following requirements are needed in Windows.
